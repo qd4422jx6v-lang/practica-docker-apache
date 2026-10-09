@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   web_compose:
+    build: .
     image: imagen_apache_chus
     ports:
       - "8083:80"
